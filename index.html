@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="form" action="submit.html" onsubmit="return validate()">
+        <input type="text" name="userid" id="userid" placeholder="UserId :">
+        <span id="userid-error"></span><br><br>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <span id="email-error"></span><br><br>
+        <input type="password" name="password" id="password" placeholder="Password :">
+        <span id="password-error"></span><br><br>
+        <input type="password" name="confirm password" id="c-password" placeholder="Confirm Password :">
+        <span id="c-password-error"></span><br><br>
+        <button type="submit">SignUp</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
